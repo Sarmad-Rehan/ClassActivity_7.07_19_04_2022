@@ -7,7 +7,8 @@
 // import 'countObject.dart';
 // import 'players.dart';
 // import 'travel_1.dart';
-import 'students.dart';
+// import 'students.dart';
+import 'countObjects.dart';
 
 void main(List<String> args) {
   // Program 7.07
@@ -74,13 +75,26 @@ void main(List<String> args) {
   // player.display();
 
   // Program 7.16
-  Student student1 = Student();
-  Student student2 = Student();
-  Student student3 = Student();
-  student1.input();
-  student1.displayData();
-  student2.input();
-  student2.displayData();
-  student3.input();
-  student3.displayData();
+  // Student student1 = Student();
+  // Student student2 = Student();
+  // Student student3 = Student();
+  // student1.input();
+  // student1.displayData();
+  // student2.input();
+  // student2.displayData();
+  // student3.input();
+  // student3.displayData();
+
+  // Program 7.17
+  CountObjects.display();
+  CountObjects countObject1 = CountObjects();
+  CountObjects.display();
+  CountObjects countObject2 = CountObjects();
+  CountObjects.display();
+  CountObjects countObject3 = CountObjects();
+  CountObjects.display();
+  CountObjects countObject4 = CountObjects();
+  CountObjects.display();
+  CountObjects countObject5 = CountObjects();
+  CountObjects.display();
 }
