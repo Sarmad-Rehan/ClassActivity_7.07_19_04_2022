@@ -4,9 +4,10 @@
 // import 'book.dart';
 // import 'student.dart';
 // import 'travel.dart';
-import 'countObject.dart';
-import 'players.dart';
-import 'travel_1.dart';
+// import 'countObject.dart';
+// import 'players.dart';
+// import 'travel_1.dart';
+import 'students.dart';
 
 void main(List<String> args) {
   // Program 7.07
@@ -61,14 +62,25 @@ void main(List<String> args) {
   // countObject1.display();
 
   // Player Example
-  Player player = Player("Sarmad", "Pakistan", 44.3);
-  player.display();
-  print("");
-  player.name = "Sarmad Rehan";
-  player.team = "Karachi Kings";
-  player.average = 55.1;
-  player.display();
-  player.input();
-  print("");
-  player.display();
+  // Player player = Player("Sarmad", "Pakistan", 44.3);
+  // player.display();
+  // print("");
+  // player.name = "Sarmad Rehan";
+  // player.team = "Karachi Kings";
+  // player.average = 55.1;
+  // player.display();
+  // player.input();
+  // print("");
+  // player.display();
+
+  // Program 7.16
+  Student student1 = Student();
+  Student student2 = Student();
+  Student student3 = Student();
+  student1.input();
+  student1.displayData();
+  student2.input();
+  student2.displayData();
+  student3.input();
+  student3.displayData();
 }
